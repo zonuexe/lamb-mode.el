@@ -68,7 +68,7 @@
     (":\\s-*\\(\\_<.+?\\_>\\)" (1 font-lock-type-face))
     ("\\(\\_<[^(-:)]+?\\_>\\)\\s-*->\\s-*" (1 font-lock-type-face))
     ("\\s-*->\\s-*\\(\\_<[^(-:)]+?\\_>\\)\\(?:)\\|\\s-\\)" (1 font-lock-type-face))
-    ("\\(?:\\s-+\\|(\\)\\^\\(\\_<.+?\\_>\\)" (1 font-lock-variable-name-face))))
+    ("\\(?:^\\|\\s-+\\|(\\)\\^\\(\\_<.+?\\_>\\)" (1 font-lock-variable-name-face))))
 
 ;;;###autoload
 (define-derived-mode lamb-mode prog-mode "Lamb"
