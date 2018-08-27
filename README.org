@@ -1,0 +1,2 @@
+* lamb-mode - Emacs major mode for editing Lamb language
+[[https://github.com/wejournal/lamb][Lamb]] is a Lambda Calculus based programming language.
