@@ -75,7 +75,7 @@
   "Major mode for editing Lamb language"
   (set-syntax-table lamb-mode-syntax-table)
   (setq font-lock-defaults '(lamb-mode-font-lock-keywords nil nil))
-  (setq comment-start "//")
+  (setq comment-start "--")
   (setq tab-width 2))
 
 ;;;###autoload
