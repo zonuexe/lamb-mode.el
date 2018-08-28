@@ -59,7 +59,8 @@
     "val"))
 
 (defvar lamb-mode-font-lock-keywords
-  `((,(regexp-opt lamb-mode-keywords 'symbols) (1 font-lock-keyword-face))
+  `(("^\\(--|\\s-+.+?\\)$" (1 font-lock-doc-face t))
+    (,(regexp-opt lamb-mode-keywords 'symbols) (1 font-lock-keyword-face))
     ("\\_<def\\s-+\\(\\_<.+?\\_>\\)\\s-?" (1 font-lock-function-name-face))
     ("\\_<let\\s-+\\(\\_<.+?\\_>\\)\\s-+:=" (1 font-lock-variable-name-face))
     ("\\_<type\\s-+\\(\\_<.+?\\_>\\)" (1 font-lock-type-face))
