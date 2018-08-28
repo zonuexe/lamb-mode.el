@@ -7,6 +7,7 @@
 ;; Keywords: languages
 ;; Created: 27 Aug 2018
 ;; Version: 0.0.2
+;; Package-Requires: ((emacs "24.3"))
 ;; License: GPL-3.0-or-later
 
 ;; This program is free software; you can redistribute it and/or modify
